@@ -13,7 +13,7 @@ RUN yum -y update \
 # Clean the yum cache.
 RUN yum makecache fast \
 && yum -y install \
-epel-release \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
 initscripts \
 && yum -y update \
 && yum -y install \
