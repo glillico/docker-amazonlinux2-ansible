@@ -1,5 +1,7 @@
 # Amazon Linux 2 Docker Image for Ansible Testing
 
+[![Build Status](https://github.com/glillico/docker-amazonlinux2-ansible/workflows/build/badge.svg)](https://github.com/glillico/docker-amazonlinux2-ansible/actions?query=workflow%3Abuild)
+
 A docker container using Amazon Linux 2 with Ansible installed for playbook and role testing.
 
 ## Tags
@@ -16,7 +18,7 @@ To build this docker container you can do the following.
   - Change to the repositories directory.
     - `$ cd docker-amazonlinux2-ansible`
   - Run the command
-    - `$ docker buildÍ -t amazonlinux2-ansible .`
+    - `$ docker build -t amazonlinux2-ansible .`
 
 ## How To Use
 
