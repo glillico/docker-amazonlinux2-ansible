@@ -1,6 +1,6 @@
 # Amazon Linux 2 Docker Image for Ansible Testing
 
-[![Build Status](https://github.com/glillico/docker-amazonlinux2-ansible/workflows/build/badge.svg)](https://github.com/glillico/docker-amazonlinux2-ansible/actions?query=workflow%3Abuild)
+[![CI](https://github.com/glillico/docker-amazonlinux2-ansible/workflows/CI/badge.svg)](https://github.com/glillico/docker-amazonlinux2-ansible/actions?query=workflow%3ACI)
 
 A docker container using Amazon Linux 2 with Ansible installed for playbook and role testing.
 
