@@ -38,4 +38,4 @@ MIT
 
 ## Author Information
 
-This role was created in 2020 by Graham Lillico.
+Created in 2020 by Graham Lillico.
