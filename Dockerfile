@@ -35,6 +35,9 @@ rm -f /lib/systemd/system/sockets.target.wants/*initctl*; \
 rm -f /lib/systemd/system/basic.target.wants/*;\
 rm -f /lib/systemd/system/anaconda.target.wants/*;
 
+# Upgrade pip.
+RUN pip install --upgrade pip
+
 # Install ansible.
 RUN pip install ansible
 
